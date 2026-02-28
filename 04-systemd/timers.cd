@@ -1,24 +1,46 @@
+# Timers 
 
-# Timers en systemd
+## Introducción
+Los timersados, dependencias de systemd reemplazan cron con ventajas como logs integr y ejecución garantizada incluso si el sistema estuvo apagado.
 
-## Objetivo
-Aprender a reemplazar cron usando systemd timers, que permiten programar tareas con mayor control, logs integrados y dependencias.
-
----
-
-## ¿Qué es un timer?
-Un timer es un archivo `.timer` que activa un servicio `.service` en un horario específico.
-
-Ventajas sobre cron:
-- Logs integrados con journalctl.
-- Dependencias con otros servicios.
-- Control de fallos y reintentos.
-- Precisión y manejo de zonas horarias.
+Un timer activa un servicio `.service`.
 
 ---
 
 ## Estructura de un timer
 
+Ejemplo:
+[Unit]
+Description mi servicio
+
+[Timer=Timer para ejecutar]
+OnCalendar=--* 12:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.targetación
+
+OnCalendar — define cuándo
+
+
+### Explic se ejecuta.
+- **Persistent=true**** — habilita el timer.
+
+---
+
+## Crear un timer paso — ejecuta tareas atrasadas.
+- **WantedBy=timers.target a paso
+
+### 1. Crear el servicio
+```bash
+sudo nano /etc/systemd/system
+Contenido:
+
+[Unit]
+Description
+
+[Service]
+Exec/mi_tarea.service=Tarea programadaStart=/usr/local/bin/tarea.sh
 
 
 
