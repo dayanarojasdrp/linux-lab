@@ -1,4 +1,4 @@
-# Variables y Redirecciones (Nivel Junior+)
+# Variables y Redirecciones 
 
 ## Objetivo
 Dominar variables de entorno y redirecciones para controlar entradas y salidas del shell.
@@ -11,3 +11,4 @@ Dominar variables de entorno y redirecciones para controlar entradas y salidas d
 ```bash
 NOMBRE="Dayana"
 echo $NOMBRE
+
