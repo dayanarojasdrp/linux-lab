@@ -1,4 +1,4 @@
-# Expansiones en Shell (Nivel Junior+)
+# Expansiones en Shell
 
 ## Objetivo
 Dominar las expansiones del shell para automatizar tareas, generar listas, y manipular patrones sin escribir comandos repetitivos.
@@ -16,3 +16,4 @@ Dominar las expansiones del shell para automatizar tareas, generar listas, y man
 ls *.txt
 ls archivo?.md
 ls imagen[1-3].png
+
