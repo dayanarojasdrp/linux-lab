@@ -1,0 +1,22 @@
+# Timers en systemd 
+
+## Objetivo
+Aprender a reemplazar cron usando systemd timers, que permiten programar tareas con mayor control, logs integrados y dependencias.
+
+---
+
+## ¿Qué es un timer?
+Un timer es un archivo `.timer` que activa un servicio `.service` en un horario específico.
+
+Ventajas sobre cron:
+- Logs integrados con journalctl.
+- Dependencias con otros servicios.
+- Control de fallos y reintentos.
+- Precisión y manejo de zonas horarias.
+
+---
+
+## Estructura de un timer
+
+Archivo `.timer`:
+
