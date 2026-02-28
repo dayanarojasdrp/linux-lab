@@ -1,5 +1,5 @@
 
-# Alias en Shell (Nivel Junior+)
+# Alias en Shell 
 
 ## Objetivo
 Crear alias temporales y permanentes para acelerar tu flujo de trabajo.
@@ -10,3 +10,4 @@ Un alias es un atajo para un comando largo.
 Ejemplo:
 ```bash
 alias ll='ls -l'
+
