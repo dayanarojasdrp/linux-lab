@@ -1,5 +1,10 @@
+
+---
+
+#  04‑systemd/timers.md
+
 ```md
-# Timers en systemd 
+# Timers en systemd
 
 ## Objetivo
 Aprender a reemplazar cron usando systemd timers, que permiten programar tareas con mayor control, logs integrados y dependencias.
@@ -20,5 +25,8 @@ Ventajas sobre cron:
 ## Estructura de un timer
 
 Archivo `.timer`:
+
+
+
 
 
