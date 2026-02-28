@@ -1,4 +1,4 @@
-# Comillas y Subshells (Nivel Junior+)
+# Comillas y Subshells 
 
 ## Objetivo
 Comprender cómo las comillas afectan expansiones y cómo usar subshells para ejecutar comandos dentro de comandos.
@@ -12,3 +12,4 @@ Comprender cómo las comillas afectan expansiones y cómo usar subshells para ej
 Ejemplo:
 ```bash
 echo '$HOME'
+
